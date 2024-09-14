@@ -1,28 +1,6 @@
 # phpstorm project files
-.idea
+/.idea/
 
-# netbeans project files
-nbproject
+/vendor/
 
-# zend studio for eclipse project files
-.buildpath
-.project
-.settings
-
-# windows thumbnail cache
-Thumbs.db
-
-# Mac DS_Store Files
-.DS_Store
-
-# composer
-composer.phar
 /composer.lock
-/vendor
-
-# phpunit itself is not needed
-phpunit.phar
-# local phpunit config
-/phpunit.xml
-
-/package.zip
