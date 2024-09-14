@@ -29,6 +29,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install PHP.
+        uses: shivammathur/setup-php@v2
+        with:
+            php-version: ${{ matrix.php }}
+
       - name: Install composer
         run: composer require --dev "composer/composer:${{ matrix.composer }}" --update-with-dependencies
 
